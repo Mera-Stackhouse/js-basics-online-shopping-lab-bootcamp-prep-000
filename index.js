@@ -15,7 +15,7 @@ function addToCart(item) {
  var newItem = {}
  newItem['itemName'] = item
  //cart[`itemName: ${item}`] = `itemPrice: ${number}`;
- console.log(newItem())
+ console.log(newItem)
  return `${item} has been added to your cart.`;
 }
 
@@ -47,6 +47,6 @@ var item = "bananas"
 
 addToCart(item)
 
-console.log(newItem())
+//console.log(newItem())
 
 
