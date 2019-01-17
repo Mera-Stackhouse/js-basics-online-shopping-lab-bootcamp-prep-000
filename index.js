@@ -60,6 +60,6 @@ addToCart(item);
 
 //console.log (total());
 
-var total = total + 2 
-console.log(total)
+var totals = totals + 2 
+console.log(totals)
 
