@@ -43,7 +43,8 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  // write your code 
+  
 }
 
 function placeOrder(cardNumber) {
@@ -58,6 +59,4 @@ addToCart(item);
 
 //console.log(cart[0].itemPrice);
 
-console.log(cart);
-
-console.log (total());
+//console.log (total());
