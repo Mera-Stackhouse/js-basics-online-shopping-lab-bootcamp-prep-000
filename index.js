@@ -57,11 +57,6 @@ addToCart(item);
 
 //console.log(cart[0].itemPrice);
 
-//console.log(cart);
+console.log(cart);
 
-//console.log (total());
-
-var totals = 2
-totals = totals + 2 
-console.log(totals)
-
+console.log (total());
