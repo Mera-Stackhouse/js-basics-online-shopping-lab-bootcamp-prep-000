@@ -49,6 +49,6 @@ addToCart(item);
 
 console.log(cart);
 
-console.log(cart[0.itemPrice]);
+console.log(cart[0].itemPrice);
 
 
