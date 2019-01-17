@@ -18,7 +18,7 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  if (cart.lenth = 0) {
+  if (cart.length = 0) {
     return 'Your shopping cart is empty.';
   } else {
     var string = 'In your cart, you have ';
@@ -40,5 +40,10 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
+var item = bananas
+
+addToCart(item)
+
+console.log(cart)
 
 
