@@ -33,6 +33,8 @@ function placeOrder(cardNumber) {
 
 var array = []
 
-array['mera'] = 'rayna'
+age = 27
+
+array[`mera: ${age}`] = 'rayna'
 
 console.log(array)
