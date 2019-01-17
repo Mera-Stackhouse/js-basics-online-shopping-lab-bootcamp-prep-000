@@ -49,4 +49,6 @@ addToCart(item);
 
 console.log(cart);
 
+console.log(cart[1,1]);
+
 
