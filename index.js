@@ -32,12 +32,7 @@ function placeOrder(cardNumber) {
 }
 
 
-var array = []
-
-age = 27
-
-array[`mera: ${age}`] = `rayna: ${age}`
 
 
 var number = math.floor(math.random() * math.floor(101));
-console.log(number)
+console.log(number);
