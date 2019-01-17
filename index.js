@@ -25,9 +25,11 @@ function viewCart() {
     return 'Your shopping cart is empty.';
   } else {
     var string = 'In your cart, you have ';
-    //for (i=0; i < ; i++) {
-     // string = string + cart[]
-    //}
+    for (i=0; i < cart.length - 1 ; i++) {
+      string = string + `${cart[i].itemName} at $${cart[i].itemPrice}, `
+    }
+    string = string + `and ${cart[i].itemName} at $${cart[i].itemPrice}.`
+    return string
   }
 }
 
@@ -47,8 +49,9 @@ var item = "apples";
 
 addToCart(item);
 
-console.log(cart);
+//console.log(cart);
 
-console.log(cart[0].itemPrice);
+//console.log(cart[0].itemPrice);
 
+console.log (viewCart())
 
