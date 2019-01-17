@@ -46,6 +46,6 @@ var item = "bananas"
 
 addToCart(item)
 
-console.log(newItem)
+console.log(newItem())
 
 
