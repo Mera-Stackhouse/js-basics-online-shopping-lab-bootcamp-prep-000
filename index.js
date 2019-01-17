@@ -13,8 +13,8 @@ function addToCart(item) {
  // write your code here
  var number = Math.floor(Math.random() * Math.floor(101));
  var newItem = {};
- newItem['itemName'] = item;
- newItem['itemPrice'] = number;
+ newItem.itemName = item;
+ newItem.itemPrice = number;
  cart.push(newItem);
  return `${item} has been added to your cart.`;
 }
@@ -43,10 +43,10 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
-var item = "bananas"
+var item = "bananas";
 
-addToCart(item)
+addToCart(item);
 
-console.log(cart
+console.log(cart);
 
 
