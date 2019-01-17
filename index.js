@@ -39,5 +39,5 @@ age = 27
 array[`mera: ${age}`] = `rayna: ${age}`
 
 
- number = math.floor(math.random() * math.floor(101));
+var number = math.floor(math.random() * math.floor(101));
 console.log(number)
