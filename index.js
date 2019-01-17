@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- number = math.floor(math.random() * math.floor(101));
+ var number = Math.floor(Math.random() * Math.floor(101));
  cart[`itemName: ${item}`] = `itemPrice: ${number}`;
 }
 
@@ -32,5 +32,4 @@ function placeOrder(cardNumber) {
 }
 
 
-var number = Math.floor(Math.random() * Math.floor(101));
-console.log(number);
+
