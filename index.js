@@ -56,7 +56,10 @@ addToCart(item);
 
 //console.log(cart[0].itemPrice);
 
-console.log(cart);
+//console.log(cart);
 
-console.log (total());
+//console.log (total());
+
+var total = total + 2 
+console.log(total)
 
