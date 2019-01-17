@@ -22,8 +22,8 @@ function viewCart() {
     return 'Your shopping cart is empty.';
   } else {
     var string = 'In your cart, you have ';
-    for (i=0; i < ; i++) {
-      string = string + cart[]
+    //for (i=0; i < ; i++) {
+     // string = string + cart[]
     }
   }
 }
