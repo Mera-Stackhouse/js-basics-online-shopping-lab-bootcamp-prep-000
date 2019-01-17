@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- number = getRandomInt(101)
+ number = math.floor(math.random() * math.floor(101));
  cart[`itemName: ${item}`] = `itemPrice: ${number}`;
 }
 
@@ -38,4 +38,6 @@ age = 27
 
 array[`mera: ${age}`] = `rayna: ${age}`
 
+
+ number = math.floor(math.random() * math.floor(101));
 console.log(array)
