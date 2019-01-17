@@ -32,7 +32,5 @@ function placeOrder(cardNumber) {
 }
 
 
-
-
-var number = math.floor(math.random() * math.floor(101));
+var number = Math.floor(Math.random() * Math.floor(101));
 console.log(number);
