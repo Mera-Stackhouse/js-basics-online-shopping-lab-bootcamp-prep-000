@@ -40,7 +40,7 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
-var item = bananas
+var item = "bananas"
 
 addToCart(item)
 
