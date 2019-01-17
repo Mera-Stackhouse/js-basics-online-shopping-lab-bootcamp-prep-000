@@ -56,5 +56,7 @@ addToCart(item);
 
 //console.log(cart[0].itemPrice);
 
+console.log(cart);
+
 console.log (total());
 
