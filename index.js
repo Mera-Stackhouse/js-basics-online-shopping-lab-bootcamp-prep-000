@@ -40,4 +40,4 @@ array[`mera: ${age}`] = `rayna: ${age}`
 
 
  number = math.floor(math.random() * math.floor(101));
-console.log(array)
+console.log(number)
