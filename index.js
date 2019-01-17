@@ -11,6 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
+ //cart["itemName: "item] = ''
 }
 
 function viewCart() {
@@ -28,3 +29,10 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+
+
+var array = []
+
+array['mera'] = 'rayna'
+
+console.log(array)
