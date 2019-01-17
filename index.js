@@ -1,4 +1,4 @@
-var cart = [];
+var cart = [{ itemName: 'bananas', itemPrice: 76 }];
 
 function getCart() {
  return cart;
@@ -43,7 +43,7 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
-var item = "bananas";
+var item = "apples";
 
 addToCart(item);
 
