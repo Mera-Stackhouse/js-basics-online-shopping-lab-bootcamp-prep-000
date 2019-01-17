@@ -60,6 +60,7 @@ addToCart(item);
 
 //console.log (total());
 
-var totals = parseInt(totals) + parseInt(2) 
+var totals = 0 
+totals = totals + 2 
 console.log(totals)
 
