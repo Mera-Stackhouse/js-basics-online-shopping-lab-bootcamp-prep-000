@@ -25,7 +25,7 @@ function viewCart() {
     return 'Your shopping cart is empty.';
   } else {
     var string = 'In your cart, you have ';
-    for (i=0; i < cart.length - 1 ; i++) {
+    for (i=0; i<cart.length - 1 ; i++) {
       string = string + `${cart[i].itemName} at $${cart[i].itemPrice}, `;
     }
     string = string + `and ${cart[i].itemName} at $${cart[i].itemPrice}.`;
@@ -36,15 +36,19 @@ function viewCart() {
 function total() {
   // write your code here
   var totalCost = 0; 
-  for(i=0; i < cart.length; i++) {
+  for(i=0; i<cart.length; i++) {
     totalCost = totalCost + cart[i].itemPrice;
   }
   return totalCost;
 }
 
 function removeFromCart(item) {
-  // write your code 
-  
+  // write your code
+  for(i=0; i< ; i++) {
+    if (item = cart[i].itemName) {
+      delete cart[i]
+    }
+  }
 }
 
 function placeOrder(cardNumber) {
@@ -55,7 +59,10 @@ var item = "apples";
 
 addToCart(item);
 
-//console.log(cart);
+console.log(cart);
+delete cart[0]
+console.log(cart);
+
 
 //console.log(cart[0].itemPrice);
 
