@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- number = getRandomInt(100)
+ number = getRandomInt(101)
  cart[`itemName: ${item}`] = `itemPrice: ${number}`;
 }
 
