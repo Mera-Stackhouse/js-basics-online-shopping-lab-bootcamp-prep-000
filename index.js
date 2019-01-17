@@ -12,11 +12,10 @@ function setCart(c) {
 function addToCart(item) {
  // write your code here
  var number = Math.floor(Math.random() * Math.floor(101));
- var newItem = {}
- newItem['itemName'] = item
- newItem['itemPrice'] = number
- //cart[`itemName: ${item}`] = `itemPrice: ${number}`;
- console.log(newItem)
+ var newItem = {};
+ newItem['itemName'] = item;
+ newItem['itemPrice'] = number;
+ cart.push(newItem);
  return `${item} has been added to your cart.`;
 }
 
@@ -48,6 +47,6 @@ var item = "bananas"
 
 addToCart(item)
 
-//console.log(newItem())
+console.log(cart
 
 
