@@ -35,6 +35,9 @@ function viewCart() {
 
 function total() {
   // write your code here
+  for(i=0; i < cart.length; i++)
+  var total = total + cart[i].itemPrice
+  return total
 }
 
 function removeFromCart(item) {
@@ -53,5 +56,5 @@ addToCart(item);
 
 //console.log(cart[0].itemPrice);
 
-console.log (viewCart());
+console.log (total());
 
