@@ -35,6 +35,6 @@ var array = []
 
 age = 27
 
-array[`mera: ${age}`] = 'rayna'
+array[`mera: ${age}`] = `rayna: ${age}`
 
 console.log(array)
