@@ -24,7 +24,7 @@ function viewCart() {
     var string = 'In your cart, you have ';
     //for (i=0; i < ; i++) {
      // string = string + cart[]
-    }
+    //}
   }
 }
 
