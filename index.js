@@ -71,7 +71,7 @@ console.log(cart);
 
 //console.log(removeFromCart('oranges'));
 
-console.log( placeOrder());
+console.log( placeOrder(12345));
 
 //console.log(cart[0].itemPrice);
 
