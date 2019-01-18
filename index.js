@@ -26,9 +26,9 @@ function viewCart() {
   } else {
     var string = 'In your cart, you have ';
     for (var i=0; i<cart.length - 1 ; i++) {
-      string = string + `${cart[i].itemName} at $${cart[i].itemPrice}, `;
+      string = string + `${cart[i].itemName} at $${cart[i].itemPrice}, and `;
     }
-    string = string + `and ${cart[i].itemName} at $${cart[i].itemPrice}.`;
+    string = string + `${cart[i].itemName} at $${cart[i].itemPrice}.`;
     return string;
   }
 }
