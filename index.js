@@ -65,7 +65,7 @@ console.log(cart);
 
 removeFromCart('apples');
 
-
+console.log(cart);
 
 //console.log(cart[0].itemPrice);
 
