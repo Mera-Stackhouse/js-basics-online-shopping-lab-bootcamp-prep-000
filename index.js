@@ -62,8 +62,7 @@ var item = "apples";
 addToCart(item);
 
 console.log(cart);
-delete cart[0];
-console.log(viewCart());
+
 
 
 //console.log(cart[0].itemPrice);
