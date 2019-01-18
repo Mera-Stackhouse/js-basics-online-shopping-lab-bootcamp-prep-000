@@ -63,7 +63,7 @@ addToCart(item);
 
 console.log(cart);
 
-removeFromCart(apples);
+removeFromCart('apples');
 
 
 
