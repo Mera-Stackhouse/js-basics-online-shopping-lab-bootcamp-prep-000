@@ -63,6 +63,8 @@ addToCart(item);
 
 console.log(cart);
 
+removeFromCart(apples);
+
 
 
 //console.log(cart[0].itemPrice);
