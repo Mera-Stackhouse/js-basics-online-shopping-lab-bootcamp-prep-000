@@ -1,4 +1,4 @@
-var cart = [{ itemName: 'bananas', itemPrice: 76 }];
+var cart = [];
 
 function getCart() {
  return cart;
