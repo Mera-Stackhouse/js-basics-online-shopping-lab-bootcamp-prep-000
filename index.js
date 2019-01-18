@@ -64,16 +64,3 @@ function placeOrder(cardNumber) {
   }
 }
 
-var item = "apples";
-
-addToCart(item);
-
-console.log(cart);
-
-//console.log(removeFromCart('oranges'));
-
-console.log( placeOrder(12345));
-
-//console.log(cart[0].itemPrice);
-
-console.log (cart);
