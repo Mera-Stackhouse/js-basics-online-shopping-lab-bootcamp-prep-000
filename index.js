@@ -25,7 +25,7 @@ function viewCart() {
     return 'Your shopping cart is empty.';
   } else {
     var string = 'In your cart, you have ';
-    for (i=0; i<cart.length - 1 ; i++) {
+    for (var i=0; i<cart.length - 1 ; i++) {
       string = string + `${cart[i].itemName} at $${cart[i].itemPrice}, `;
     }
     string = string + `and ${cart[i].itemName} at $${cart[i].itemPrice}.`;
@@ -36,7 +36,7 @@ function viewCart() {
 function total() {
   // write your code here
   var totalCost = 0; 
-  for(i=0; i<cart.length; i++) {
+  for(var i=0; i<cart.length; i++) {
     totalCost = totalCost + cart[i].itemPrice;
   }
   return totalCost;
@@ -44,7 +44,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code
-  for(i=0; i< cart.length; i++) {
+  for(var i=0; i< cart.length; i++) {
     if (item === cart[i].itemName) {
       cart.splice(i, 1)
       return cart
